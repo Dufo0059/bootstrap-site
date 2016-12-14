@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/iconic-bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<!--    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='css/custom.css' rel='stylesheet' type='text/css'>
+
+
+	
+
+</head>
+
+<body>
+	<nav class="navbar navbar-light bg-faded">
+  <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+    <a class="navbar-brand" href="#"><img src="img/icon-tree.png" width="30" height="30" class="d-inline-block align-top" alt="">STTWW</a>
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page2.html">how you can help</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page3.html">contact use</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+          <a class="dropdown-item" href="index.html">home</a>
+          <a class="dropdown-item" href="page2.html">how you can help</a>
+          <a class="dropdown-item" href="page3.html">contact us</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline float-lg-right">
+    </form>
+  </div>
+</nav>
+
+	<h2>Sign up and help fight for the trees.</h2>
+	<p>signing up and make it easy to donate to STTWW(save the trees world wide)</p>
+	<div class="row">
+		<form class="form-horizontal" name="commentform">
+			<div class="form-group">
+				<div class="col-md-4">
+					<input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name" />
+				</div>
+				<div class="col-md-4">
+					<input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name" />
+				</div>
+				<div class="col-md-4 input-group">
+					<span class="input-group-addon">@</span>
+					<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" />
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-12">
+					<textarea rows="6" class="form-control" id="comments" name="comments" placeholder="Your question or comment here"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6">
+					<button type="submit" value="Submit" class="btn btn-warning pull-right">Send</button>
+				</div>
+			</div>
+		</form>
+	</div>
+    <div class="container map-container">
+	
+<!--
+	 <img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center=35.2512324,-106.67777940000002,NY&zoom=13&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C40.35.2512324,-106.67777940000002&markers=color:green%7Clabel:G%7C40.35.2512324,-106.67777940000002
+&markers=color:red%7Clabel:C%7C40.718217,-73.998284
+&key=AIzaSyDMWT9WoX_DgV7ZoV0soIqRAFxDLPsdaeU"/>
+
+
+-->
+
+<h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+	</div>
+	<hr style="border:1px solid white;">
+		<footer>
+			<p>&copy; Save The Trees World Wide</p>
+			<div class="text-center">
+
+				<span class="iconic iconic-social-facebook iconic-md" title="social facebook" aria-hidden="true"></span>
+				<span class="iconic iconic-social-pinterest iconic-md" title="social pinterest" aria-hidden="true"></span>
+				<span class="iconic iconic-social-reddit iconic-md" title="social reddit" aria-hidden="true"></span>
+					<span class="iconic iconic-social-twitter iconic-md" title="social twitter" aria-hidden="true"></span>
+			</div>
+		</footer>
+	 <script>
+      function initMap() {
+        var uluru = {lat: 45.447101, lng: -75.49475039999999};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMWT9WoX_DgV7ZoV0soIqRAFxDLPsdaeU&callback=initMap">
+    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

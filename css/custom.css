@@ -1,0 +1,89 @@
+body {
+    background-color: #7BD659;
+}
+
+html{
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Roboto slab' 'Droid Sans', sans-serif;
+}
+
+h1{
+    font: bold 6.236rem 'Roboto slab', 'Palatino', 'Droid Serif', serif;
+      text-shadow: black 0.05rem 0.05rem 0.05rem;
+    color: white;
+}
+h2{ 
+    font: bold 2.618rem 'Roboto slab', 'Palatino', 'Droid Serif', serif;
+    color: white;
+}
+li, p, a {
+    font: 1.5rem 'Roboto', 'arial', 'Droid Sans', sans-serif;
+}
+
+.jumbotron {
+	height: 400px;
+	position: relative;
+}
+
+.jumbotron {
+  	background-image: url("../img/deforestation.png");
+	background-size: cover;
+	background-position: center ;
+	background-repeat: no-repeat;
+    
+}
+.display-3{
+    text-shadow: 10px;
+}
+footer{
+    padding: 40px;
+}
+.row{
+    padding: 40px;
+    
+}
+#map {
+	width: 100%;
+	height: 400px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.iconic {
+	padding: 1rem;
+	float: right;
+}
+
+.iconic:hover {
+	color: lightgray;
+}
+.bg-inverse {
+  background-color: #373a3c !important;
+}
+
+a.bg-inverse:focus, a.bg-inverse:hover {
+  background-color: #1f2021 !important;
+}
+
+.card img{
+    width:100%;
+    height: auto;
+}
+.map-container{
+    text-align: center;
+}
+.map{
+    width: 90%;
+/*    height: 200px;*/
+    background-size: cover; 
+    background-position: center;
+    border-color: aqua;
+    text-align: center;
+}
+.card{
+    min-height: 550px;
+    max-height: auto;
+
+    
+    
+}
