@@ -1,5 +1,5 @@
 body {
-    background-color: #7BD659;
+    background-color: black;
 }
 
 html{
@@ -16,9 +16,12 @@ h1{
 h2{ 
     font: bold 2.618rem 'Roboto slab', 'Palatino', 'Droid Serif', serif;
     color: white;
+    
 }
 li, p, a {
     font: 1.5rem 'Roboto', 'arial', 'Droid Sans', sans-serif;
+    color: white;
+    
 }
 
 .jumbotron {
@@ -27,7 +30,7 @@ li, p, a {
 }
 
 .jumbotron {
-  	background-image: url("../img/deforestation.png");
+  	background-image: url("../img/backgroundFont.png");
 	background-size: cover;
 	background-position: center ;
 	background-repeat: no-repeat;
