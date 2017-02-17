@@ -17,16 +17,26 @@ h2{
     font: bold 2.618rem 'Roboto slab', 'Palatino', 'Droid Serif', serif;
     color: white;
     
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
 li, p, a {
     font: 1.5rem 'Roboto', 'arial', 'Droid Sans', sans-serif;
     color: white;
     
+<<<<<<< Updated upstream
+=======
+   
+    
+>>>>>>> Stashed changes
 }
 
 .jumbotron {
-	height: 400px;
+	height: 700px;
 	position: relative;
+    
 }
 
 .jumbotron {
